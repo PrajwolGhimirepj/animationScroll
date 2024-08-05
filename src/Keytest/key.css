@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  overflow: hidden;
+}
+
+.container:hover .box1 {
+  top: 0vh;
+}
+.box1 {
+  position: absolute;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(91, 216, 42);
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 1.49, 1, -1.02);
+}
